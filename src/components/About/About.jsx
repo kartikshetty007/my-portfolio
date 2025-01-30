@@ -3,9 +3,9 @@ import React from "react";
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
 import techicon from "../../../assets/about/freepik_br_ce4323b2-1a4a-4bae-bd20-7c8021f3736d - Copy_Edited.png"
-import cursor from "../../../assets/about/cursoricon.png"
-import servicon from "../../../assets/about/servericon.png"
-import uiicon from "../../../assets/about/uiicon.png"
+import cursor from "../../../assets/about/cursorIcon.png"
+import servicon from "../../../assets/about/serverIcon.png"
+import uiicon from "../../../assets/about/uiIcon.png"
 
 
 export const About = () => {
