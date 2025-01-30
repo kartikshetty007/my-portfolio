@@ -2,6 +2,11 @@ import React from "react";
 
 import styles from "./About.module.css";
 import { getImageUrl } from "../../utils";
+import techicon from "../../../assets/about/freepik_br_ce4323b2-1a4a-4bae-bd20-7c8021f3736d - Copy_Edited.png"
+import cursor from "../../../assets/about/cursoricon.png"
+import servicon from "../../../assets/about/servericon.png"
+import uiicon from "../../../assets/about/uiicon.png"
+
 
 export const About = () => {
   return (
@@ -9,13 +14,13 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src={"../assets/about/freepik_br_ce4323b2-1a4a-4bae-bd20-7c8021f3736d - Copy_Edited.png"}
+          src={techicon}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={"../assets/about/cursoricon.png"} alt="Cursor icon" />
+            <img src={cursor} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
@@ -24,7 +29,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={"../assets/about/servericon.png"} alt="Server icon" />
+            <img src={servicon} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
@@ -33,7 +38,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={"../assets/about/uiicon.png"} alt="UI icon" />
+            <img src={uiicon} alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>UI Designer</h3>
               <p>

@@ -1,4 +1,4 @@
-[
+const hist = [
    
     {
       "role": "Intern",
@@ -12,3 +12,4 @@
       "imageSrc": "../assets/history/google.png"
     }
   ]
+  export default hist
