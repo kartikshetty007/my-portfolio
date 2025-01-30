@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Evana AI",
+      "imageSrc": "projects/project.png",
+      "description": "A Sophisticated AI-powered web application using Gemini API",
+      "skills": ["React", "HTML", "CSS", "Gemini API"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/kartikshetty007/Evana.AI.git"
+    },
+    {
+      "title": "Netflix Homepage",
+      "imageSrc": "projects/project.png",
+      "description": "Recreated an Exact Replica oh Netflix Homepage.",
+      "skills": ["HTML","CSS"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/kartikshetty007/NETFLIX-Homepage.git"
+    },
+    {
+      "title": "Loan-calculator",
+      "imageSrc": "projects/project.png",
+      "description": "A simple loan calculator that computes monthly payments and total loan costa",
+      "skills": ["JavaScript", "HTML", "CSS"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/kartikshetty007/Loan-Calculator.git"
+    }
+  ]
